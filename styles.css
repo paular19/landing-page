@@ -529,7 +529,34 @@ footer{
     }
     }
 
+@media (max-width: 414px){
+    .img{
+        margin-left: -49px;
+    }
+    .box{
+        margin: 0;
+    }
+    .container__card {
+        gap: 30px;
+    }
+}
 
+@media (max-width: 390px){
+.info__description{
+    padding-top: 0;
+    padding-left: 6px;
+}
+.img{
+    margin-left: -49px;
+}
+}
+
+@media (max-width: 393px){
+    .info__description{
+        padding-top: 0;
+        padding-left: 6px;
+    }
+}
 
 
 
