@@ -512,8 +512,9 @@ footer{
       width: 100%;
       display: none;
       z-index: 9999;
-      height: calc(120vh - 120px);
+      height: calc(59vh - 52px);
       border-radius: 9px;
+      gap: 60px;
     }
 
     #toggle-menu:checked + .navbar-list {
@@ -529,7 +530,7 @@ footer{
     }
     }
 
-@media (max-width: 414px){
+@media (max-width: 412px){
     .img{
         margin-left: -49px;
     }
@@ -538,6 +539,13 @@ footer{
     }
     .container__card {
         gap: 30px;
+
+    }
+    .C2{
+        margin-left: 22px;
+    }
+    .info__description{
+        padding-top: 6px;
     }
 }
 
