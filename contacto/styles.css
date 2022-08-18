@@ -397,7 +397,7 @@ button{
       z-index: 9999;
       height: calc(90vh - 90px);
       border-radius: 9px;
-      gap: 60px;
+      gap: 59.9px;
     }
 
     #toggle-menu:checked + .navbar-list {
