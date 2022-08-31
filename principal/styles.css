@@ -574,7 +574,7 @@ footer{
 .img{
     margin-left: -49px;
 }
-.navbar-list{height: calc(63vh - 95px);
+.navbar-list{height: calc(90vh - 95px);
 }
 
 }
@@ -584,7 +584,7 @@ footer{
     width: 300px;
 } 
 
-.navbar-list{height: calc(72vh - 95px);
+.navbar-list{height: calc(90vh - 95px);
     }
 }
 
