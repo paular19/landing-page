@@ -618,6 +618,11 @@ footer{
 .navbar-list{height: calc(90vh - 95px);
 }
 }
+@media (max-width: 821px){
+    .navbar-list{height: calc(90vh - 95px);
+    }
+    }
+
 
 
 @media (max-width: 768px){
@@ -671,6 +676,13 @@ footer{
       
         
             }
+
+@media(max-width: 481px){
+    .navbar-list{height: calc(90vh - 95px);
+      
+    } 
+    
+}
     
     
 
