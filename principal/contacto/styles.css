@@ -440,12 +440,12 @@ footer{
 } 
 
 @media (max-width: 912px){
-    .navbar-list{height: calc(45vh - 95px);
+    .navbar-list{height: calc(90vh - 95px);
     }
     }
 
 @media (max-width: 820px){
-.navbar-list{height: calc(50vh - 95px);
+.navbar-list{height: calc(90vh - 95px);
 }
 }
 
@@ -498,7 +498,7 @@ footer{
             } 
 
 @media (max-width: 540px){
-        .navbar-list{height: calc(80vh - 95px);
+        .navbar-list{height: calc(90vh - 95px);
         }
         }
     @media (max-width: 480px){
@@ -551,7 +551,7 @@ footer{
 .img{
     margin-left: -49px;
 }
-.navbar-list{height: calc(63vh - 95px);
+.navbar-list{height: calc(90vh - 95px);
 }
 
 }
