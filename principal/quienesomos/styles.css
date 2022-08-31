@@ -642,7 +642,7 @@ footer{
 
 
 @media (max-width: 540px){
-        .navbar-list{height: calc(80vh - 95px);
+        .navbar-list{height: calc(90vh - 95px);
         }
         }
 
@@ -805,7 +805,7 @@ footer{
             width: 250px;
         } 
       
-        .navbar-list{height: calc(85vh - 95px);
+        .navbar-list{height: calc(90vh - 95px);
         }
     }
 
