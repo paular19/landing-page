@@ -610,7 +610,7 @@ footer{
 } 
 
 @media (max-width: 912px){
-    .navbar-list{height: calc(45vh - 95px);
+    .navbar-list{height: calc(90vh - 95px);
     }
     }
 
