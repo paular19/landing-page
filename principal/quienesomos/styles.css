@@ -646,6 +646,15 @@ footer{
         }
         }
 
+    
+@media (max-width: 544px){
+    .lasmanos{
+        display: none
+
+    };
+    }
+    }
+
         @media (max-width: 480px){
             .navbar-list{height: calc(90vh - 95px);
             }
