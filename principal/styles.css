@@ -58,7 +58,7 @@ body{
 
 .navbar,
 .navbar-list{ 
-    max-width: 1800px;
+    max-width: 2000px;
     height: 55px;
     display: flex;
     background-color: rgba(18,103,193,255);
@@ -351,6 +351,20 @@ footer{
 }
 
 /* MEDIA */
+@media(max-width: 2000px){
+    .navbar-list{
+        gap: 250px;
+
+    }
+}
+
+@media(max-width: 1920px){
+    .navbar-list{
+        gap: 250px;
+
+    }
+}
+
 @media(max-width: 1791px){
     .navbar-list{
         gap: 200px;
@@ -358,9 +372,12 @@ footer{
     }
 }
 
-@media(max-width: 1684px){
+@media(max-width: 1680px){
     .navbar-list{
         gap: 150px;
+
+    }
+    .slides{    height: 58vh;
 
     }
 }
@@ -466,15 +483,20 @@ footer{
 } 
 
 @media (max-width: 912px){
-    .navbar-list{height: calc(45vh - 95px);
+    .navbar-list{height: calc(90vh - 95px);
     }
     }
 
 @media (max-width: 820px){
-.navbar-list{height: calc(50vh - 95px);
+.navbar-list{height: calc(90vh - 95px);
 }
 }
 
+@media (max-width: 768){
+    .navbar-list{height: calc(90vh - 95px);
+    }
+    
+}
 @media (max-width: 743px){
     .slides{
         height: 80vh;
@@ -513,6 +535,13 @@ footer{
         .navbar-list{height: calc(80vh - 95px);
         }
         }
+@media(max-width: 480px){
+    .navbar-list{height: calc(90vh - 95px);
+    }
+    .slide{
+        background-position: 50% 75%;
+    }
+}
 
 @media (max-width: 460px){
         .slides{
@@ -531,7 +560,7 @@ footer{
     }
 
     .navbar-list {
-        height: calc(61vh - 90px);
+        height: calc(90vh - 90px);
     }
 }
 @media (max-width: 400px){
@@ -563,7 +592,7 @@ footer{
 @media (max-width: 375px){
     .encabezado{
         width: 7%;}
-    .navbar-list{height: calc(80vh - 95px);
+     .navbar-list{height: calc(90vh - 95px);
         }
        
 }
@@ -575,13 +604,26 @@ footer{
 }
 
 
-@media (max-width: 343px){
+
+
+@media (max-width: 320px){
     .separador2 h2{
-        font-size: 5px;
+        font-size: 20px;
+    } 
+    .separador2 h3{
+        font-size: 15px;
     }  
-}
-
-
+    .titulo{
+        padding-left: 60px;
+    } 
+    .slide{
+        background-position: 50% 75%;
+    }
+    .card{
+    width: 300px;
+    }
+    .navbar-list{height: calc(90vh - 95px);
+    }}
 
 
 

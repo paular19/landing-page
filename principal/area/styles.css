@@ -58,7 +58,7 @@ body{
 
 .navbar,
 .navbar-list{ 
-    max-width: 1800px;
+    max-width: 2500px;
     height: 55px;
     display: flex;
     background-color: rgba(18,103,193,255);
@@ -319,6 +319,20 @@ footer{
 }
 
 /* MEDIA */
+@media(max-width: 2000px){
+    .navbar-list{
+        gap: 250px;
+
+    }
+}
+
+@media(max-width: 1920px){
+    .navbar-list{
+        gap: 250px;
+
+    }
+}
+
 @media(max-width: 1791px){
     .navbar-list{
         gap: 200px;
@@ -461,19 +475,17 @@ footer{
 
 
 @media (max-width: 414px){
-    .img{
-        margin-left: -49px;
-    }
   
-    
-    .encabezado{
-        padding-right: 40px;
-    }
+        form{
+            width: 320px;
+        }
+       .navbar-list{height: calc(80vh - 95px);
+      
+            } 
+            
+    } 
 
-    .navbar-list {
-        height: calc(61vh - 90px);
-    }
-}
+
 @media (max-width: 400px){
 
     .navbar-list{height: calc(95vh - 95px);
@@ -490,8 +502,9 @@ form{
 .img{
     margin-left: -49px;
 }
-.navbar-list{height: calc(63vh - 95px);
-}
+
+.navbar-list{height: calc(95vh - 95px);
+} 
 
 form{
     width: 350px;
@@ -529,9 +542,20 @@ form{
         width: 300px;
     } 
     
-    .navbar-list{height: calc(72vh - 95px);
+    .navbar-list{height: calc(82vh - 95px);
         }
     }
+
+@media (max-width: 320px){
+    form{
+        width: 280px;
+    }
+   .navbar-list{height: calc(95vh - 95px);
+        } 
+        
+}
+
+
 @media (max-width: 280px){
         .img{
             width: 250px;
@@ -545,5 +569,5 @@ form{
         .navbar-list{height: calc(85vh - 95px);
         }
     }
-}
+
 
