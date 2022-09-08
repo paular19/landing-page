@@ -420,7 +420,7 @@ footer{
 
 @media (max-width: 480px){
 
-            .navbar-list{height: calc(95vh - 95px);
+            .navbar-list{height: calc(75vh - 95px);
             }
         }
 
@@ -435,7 +435,22 @@ footer{
     }
 
     .navbar-list {
-        height: calc(90vh - 90px);
+        height: calc(75vh - 90px);
+    }
+}
+
+@media (max-width: 412px){
+    .img{
+        margin-left: -49px;
+    }
+  
+    
+    .encabezado{
+        padding-right: 40px;
+    }
+
+    .navbar-list {
+        height: calc(74vh - 90px);
     }
 }
 @media (max-width: 400px){
@@ -463,7 +478,7 @@ footer{
     .img{
         width: 350px;
     }
-    .navbar-list{height: calc(90vh - 95px);
+    .navbar-list{height: calc(80vh - 95px);
         }
        
 }
@@ -480,7 +495,7 @@ footer{
         width: 300px;
     } 
     
-    .navbar-list{height: calc(90vh - 95px);
+    .navbar-list{height: calc(82vh - 95px);
         }
     }
 
@@ -491,7 +506,7 @@ footer{
         .card{
             width: 270px;
         }
-        .navbar-list{height: calc(92vh - 95px);
+        .navbar-list{height: calc(95vh - 95px);
         }
 }
     @media (max-width: 280px){
