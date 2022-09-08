@@ -112,7 +112,7 @@ body{
 .titulo{
     color:var(--blue);
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 60px;

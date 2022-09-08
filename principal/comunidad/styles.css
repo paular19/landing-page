@@ -645,6 +645,9 @@ footer{
     .navbar-list {
         height: calc(75vh - 90px);
     }
+    .titulo{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 412px){
@@ -686,7 +689,9 @@ footer{
         width: 7%;}
      .navbar-list{height: calc(80vh - 95px);
         }
-       
+        .titulo{
+            font-size: 32px;
+        }
 }
 
 @media (max-width: 373px){
@@ -701,6 +706,9 @@ footer{
     } 
     
     .navbar-list{height: calc(82vh - 95px);
+        }
+        .titulo{
+            font-size: 30px;
         }
     
     
@@ -730,4 +738,8 @@ footer{
     width: 300px;
     }
     .navbar-list{height: calc(95vh - 95px);
-    }}
+    }
+    .titulo{
+        font-size: 30px;
+    }
+}}

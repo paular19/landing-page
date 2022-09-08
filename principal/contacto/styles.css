@@ -194,7 +194,7 @@ button{
     border: none;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 75%;
+    
 
 }
 
@@ -647,8 +647,21 @@ footer{
     .card{
     width: 300px;
     }
-    .navbar-list{height: calc(90vh - 95px);
-    }}
+    .navbar-list{height: calc(93vh - 95px);
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .img{
+        width: 295px;
+    
+    }
+    .caja{
+        width: 300px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
 
 
 

@@ -422,6 +422,9 @@ footer{
 
             .navbar-list{height: calc(75vh - 95px);
             }
+            .titulo{
+                font-size: 30px;
+            }
         }
 
 @media (max-width: 414px){
@@ -497,6 +500,9 @@ footer{
     
     .navbar-list{height: calc(82vh - 95px);
         }
+        .titulo{
+            font-size: 30px;
+        }
     }
 
     @media (max-width: 320px){
@@ -507,6 +513,9 @@ footer{
             width: 270px;
         }
         .navbar-list{height: calc(95vh - 95px);
+        }
+        .titulo{
+            font-size: 29px;
         }
 }
     @media (max-width: 280px){
