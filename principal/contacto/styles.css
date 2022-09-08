@@ -371,7 +371,7 @@ footer{
 
 @media(max-width: 1046px){
     button{
-        margin-left: 35%;
+        margin-left: 30%;
     
     }}
 @media (max-width: 1043px){
@@ -537,6 +537,11 @@ footer{
         margin-left: 20%;}
         .navbar-list{height: calc(74vh - 95px);
         }
+        .caja{
+            width: 387px;
+            margin-right: 0px;
+            margin-left: 10px;
+        } 
 
     
     }
@@ -663,9 +668,19 @@ footer{
     }
 }
 
-
-
-
+@media (max-width: 280px){
+.caja{
+    width: 250px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.img{
+    width: 250px;
+}
+.titulo{
+    font-size: 20px;
+}
+}
 
 
 
