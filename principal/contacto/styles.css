@@ -538,7 +538,7 @@ footer{
         .navbar-list{height: calc(74vh - 95px);
         }
         .caja{
-            width: 387px;
+            width: 380px;
             margin-right: 0px;
             margin-left: 10px;
         } 
@@ -549,6 +549,11 @@ footer{
 
     .navbar-list{height: calc(95vh - 95px);
     }
+    .caja{
+        width: 380px;
+        margin-right: 0px;
+        margin-left: 10px;
+    } 
 }
 
 @media (max-width: 393px){
