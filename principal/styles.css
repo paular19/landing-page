@@ -171,6 +171,16 @@ body{
     margin-top: 90px;
     
 }
+.container__card-log{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    
+}
 
 .card{
     display: flex;
@@ -185,6 +195,8 @@ body{
     flex-direction: column;
     margin-bottom: 45px;
 }
+
+
 
  .icono-image{
     margin: 0 auto;
